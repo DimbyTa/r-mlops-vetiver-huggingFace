@@ -1,0 +1,12 @@
+file: accident_model.rds
+file_size: 22171150
+pin_hash: ca45f3046b8cc6c4
+type: rds
+title: 'accident_model: a pinned list'
+description: A generalized linear model classification model
+tags: ~
+created: 20231021T055644Z
+api_version: 1
+user:
+  required_pkgs: caret
+  renv_lock: ~
