@@ -9,7 +9,8 @@ library(vetiver)
 if (FALSE) {
     library(caret)
 }
-b <- board_folder(path = "/kaggle/working/outputs")
+pin_loc <- pins:::github_raw("DimbyTa/r-mlops-vetiver-huggingFace/main/pins-r/_pins.yaml")
+b <- board_url(pin_loc)
 v <- vetiver_pin_read(b, "accident_model", version = "20231021T025821Z-51e08")
 
 #* @plumber
